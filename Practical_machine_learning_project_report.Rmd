@@ -204,7 +204,7 @@ fancyRpartPlot(Rpartmodel5$finalModel)
 
 We can see that from 5 to 10 folds, the Accuracy does not increase too much between the two models above. 5-fold cross validation is accurate enough in our modeling. Then we will use a 5-fold cross validation in the following modeling process. 
 
-## 3. Training Models and Testing and Evaluations
+## 3. Training Models and Validations
 
 To find the most fitted model, several models are used for exploration. To control bias in different variables, each model will have a preprocess that normalizing the variables. 
 
